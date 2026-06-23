@@ -1,0 +1,133 @@
+/* ===========================
+   RECORRIDO POR TLACOTEPEC
+   style.css
+   =========================== */
+
+/* --- Reset & base --- */
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #74aaeb, #ACB6E5);
+    color: #1f2937;
+    text-align: center;
+    min-height: 100vh;
+}
+
+/* --- Header --- */
+header {
+    padding: 30px 20px;
+    background-color: rgba(255, 255, 255, 0.75);
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: rgb(127, 208, 251);
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.subtitulo {
+    color: #333333;
+    font-size: 18px;
+}
+
+/* --- Headings --- */
+h2, h3, h4, h5 {
+    color: #005f73;
+    margin: 20px 0 10px;
+}
+
+h2 { font-size: 1.5rem; }
+h3 { font-size: 1.2rem; }
+h4 { font-size: 1.1rem; }
+h5 { font-size: 1rem; }
+
+/* --- Main & Sections --- */
+main {
+    padding: 10px 20px 40px;
+}
+
+section {
+    width: 85%;
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 25px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+/* --- Paragraphs --- */
+p {
+    font-size: 17px;
+    line-height: 1.6;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+.descripcion {
+    color: #1f2937;
+    font-weight: bold;
+    margin-top: 12px;
+}
+
+/* --- Lists --- */
+ol, ul {
+    margin: 10px 0 15px 25px;
+    text-align: left;
+}
+
+li {
+    font-size: 16px;
+    line-height: 1.7;
+    margin-bottom: 5px;
+}
+
+/* --- Images --- */
+img {
+    display: block;
+    width: 80%;
+    max-width: 500px;
+    border-radius: 12px;
+    margin: 15px auto;
+}
+
+/* --- Links --- */
+a {
+    color: #005f73;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* --- Button --- */
+button {
+    background-color: #007358;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+button:hover {
+    background-color: #005f73;
+}
+
+/* --- Footer --- */
+footer {
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.75);
+    color: #333333;
+}
